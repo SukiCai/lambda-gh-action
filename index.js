@@ -3,7 +3,7 @@ aws.exports.handler = (event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from Lambda!123'),
+        body: JSON.stringify('Hello from Lambda!Suki you made it!'),
     };
     return response;
 };
