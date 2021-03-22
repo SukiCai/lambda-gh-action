@@ -1,5 +1,5 @@
 const aws = require('aws-lambda')
-aws.exports.handler = (event) => {
+aws.exports.handler = async(event) => {
     // TODO implement
     const response = {
         statusCode: 200,
