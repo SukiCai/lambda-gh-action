@@ -3,7 +3,7 @@ aws.exports.handler = async(event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from Lambda!Suki you made it!'),
+        body: JSON.stringify('Hello from Lambda!Why API not working???'),
     };
     return response;
 };
