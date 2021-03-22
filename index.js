@@ -1,9 +1,8 @@
-const aws = require('./aws-lambda');
-aws.exports.handler = async(event) => {
+exports.handler = async(event) => {
     // TODO implement
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from Lambda!Why API not working????'),
+        body: JSON.stringify('Pleassssse Passsss'),
     };
     return response;
 };
