@@ -1,4 +1,4 @@
-const aws = require('./aws-lambda')
+const aws = require('./aws-lambda');
 aws.exports.handler = async(event) => {
     // TODO implement
     const response = {
